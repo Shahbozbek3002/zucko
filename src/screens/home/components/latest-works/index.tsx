@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
 import React, { useEffect, useRef, useState } from "react";
-import Podium from "@/assets/images/works/podium.png";
-import VisionPrime from "@/assets/images/works/vision-prime.avif";
-import WaveCareApp from "@/assets/images/works/wave-care-app.png";
-import Fractal from "@/assets/images/works/fractal.avif";
+import Podium from "@/assets/images/works/podium-aw23.jpg";
+import VisionPrime from "@/assets/images/works/vision-prime-cover.jpg";
+import WaveCareApp from "@/assets/images/works/wawe-car-app.jpg";
+import Fractal from "@/assets/images/works/fractal-cover.jpg";
 import { Content, Section } from "./style";
 import { BreadText } from "@/styles/global";
 import { Flex, Title } from "@mantine/core";

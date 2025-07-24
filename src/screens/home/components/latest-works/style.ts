@@ -14,22 +14,6 @@ export const Section = styled.section<SectionProps>`
   background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.1);
-    z-index: 0;
-  }
-
-  > * {
-    position: relative;
-    z-index: 1;
-  }
 `;
 
 export const Content = styled("div")`
